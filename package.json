@@ -8,10 +8,14 @@
   "description": "Implementacao do https://www.tabnews.com.br  para o curso.dev do Felipe Deschamps",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "prettier": "^3.1.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "author": "",
   "license": "MIT"
